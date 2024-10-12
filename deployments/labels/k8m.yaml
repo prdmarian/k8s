@@ -1,0 +1,10 @@
+---
+kind: Node
+apiVersion: v1
+metadata:
+  name: k8s-master
+  labels:
+    role: master
+    service: k8s-cluster
+    component: control-plane
+    stage: prod

@@ -1,0 +1,10 @@
+---
+kind: Node
+apiVersion: v1
+metadata:
+  name: k8s-worker
+  labels:
+    role: worker
+    service: k8s-cluster
+    component: worker-node
+    stage: prod

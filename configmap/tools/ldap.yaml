@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: ldap-users
-  namespace: default
+  namespace: tools
 data:
   users.ldif: |
     # LDIF content goes here (same as shown in previous section)

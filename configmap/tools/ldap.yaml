@@ -22,7 +22,6 @@ data:
     objectClass: simpleSecurityObject
     objectClass: organizationalRole
     cn: tactix
-    userPassword: {SSHA}your_admin_password_hash
     description: Administrator
 
     # Read-only user (test)
@@ -30,7 +29,6 @@ data:
     objectClass: simpleSecurityObject
     objectClass: organizationalRole
     cn: test
-    userPassword: {SSHA}your_readonly_password_hash
     description: Read-only user
 
     # Add Access Control Policy
